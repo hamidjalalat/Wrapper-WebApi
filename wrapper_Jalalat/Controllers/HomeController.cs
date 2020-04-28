@@ -13,7 +13,7 @@ namespace wrapper_Jalalat.Controllers
         public ActionResult Index()
         {
             Convertor cto = new Convertor();
-           var hh=  cto.CheckConnection();
+            var hh=  cto.CheckConnection();
             //var ss = cto.GetPersonGeneriv<Person>();
             //var ss = cto.GetPersonHttp();
             var ss = cto.GetPersonWithRouting();
